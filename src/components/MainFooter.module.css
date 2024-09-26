@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+.logo img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
